@@ -6,9 +6,9 @@ s3_tfstate_file = "infrastructure.tfstate"
 environment = "dev"
 
 region   = "us-east-1"
-az1      = "a"
-az2      = "b"
-az3      = "c"
+az1      = "us-east-1a"
+az2      = "us-east-1b"
+az3      = "us-east-1c"
 
 cidr_block      = "10.0.0.0/16"
 
