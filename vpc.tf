@@ -24,7 +24,20 @@ variable "private_cidr1" {
 variable "private_cidr2" {
   type    = string
 }
+
 variable "private_cidr3" {
+  type    = string
+}
+
+variable "az1" {
+  type    = string
+}
+
+variable "az2" {
+  type    = string
+}
+
+variable "az3" {
   type    = string
 }
 
