@@ -34,7 +34,7 @@ variable "vpc_cidr_block" {
 }
 
 module "vpc" {
-  source = "modules/vpc"
+  source = "./modules/vpc"
 
   availability_zones        = var.availability_zones
   environment               = var.environment
