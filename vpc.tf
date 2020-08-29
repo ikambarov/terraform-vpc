@@ -44,27 +44,27 @@ variable "az3" {
 variable "public_subnet_cidr_blocks" {
   type = list
   default = [
-    "var.public_cidr1",
-    "var.public_cidr2",
-    "var.public_cidr3",
+    var.public_cidr1,
+    var.public_cidr2,
+    var.public_cidr3,
   ]
 }
 
 variable "private_subnet_cidr_blocks" {
   type = list
   default = [
-    "var.private_cidr1",
-    "var.private_cidr2",
-    "var.private_cidr3",
+    var.private_cidr1,
+    var.private_cidr2,
+    var.private_cidr3,
   ]
 }
 
 variable "availability_zones" {
   type = list
   default = [
-    "var.az1",
-    "var.az2",
-    "var.az3",
+    var.az1,
+    var.az2,
+    var.az3,
   ]
 }
 
