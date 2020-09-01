@@ -9,7 +9,8 @@ resource "aws_vpc" "application_vpc" {
   enable_classiclink   = "false"
 
   tags = {
-    Name = "${var.environment}_application_vpc"
+    Name = "${var.environment}_application_vpc",
+    environment = var.environment
   }
 }
 
